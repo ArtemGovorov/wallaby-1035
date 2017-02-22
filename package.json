@@ -1,0 +1,25 @@
+{
+  "name": "wallaby-1035",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtemGovorov/wallaby-1035.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtemGovorov/wallaby-1035/issues"
+  },
+  "homepage": "https://github.com/ArtemGovorov/wallaby-1035#readme",
+  "devDependencies": {
+    "jsdom": "^9.11.0",
+    "jsx-controls-loader": "^0.1.1",
+    "react": "^15.4.2",
+    "typescript": "^2.1.6"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "dom",
+      "es2015",
+      "es2016"
+    ],
+    "noEmitHelpers": false,
+    "emitDecoratorMetadata": true,
+    "jsx": "react",
+    "target": "es2016",
+    "module": "es6",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "experimentalDecorators": true,
+    "outDir": "./build",
+    "types": [
+      "chai",
+      "react",
+      "jest"
+    ],
+    "typeRoots": [
+      "src/typings/overrides",
+      "node_modules/@types"
+    ],
+    "pretty": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
